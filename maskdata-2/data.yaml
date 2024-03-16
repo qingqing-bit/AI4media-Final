@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['masks', 'no mask']
+
+roboflow:
+  workspace: sofiewgao
+  project: maskdata-tuukf
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/sofiewgao/maskdata-tuukf/2
